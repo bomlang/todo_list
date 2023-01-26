@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Nunito:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>To-do List</title>
+  </head>
+  <body>
+    <section>
+      <form for="username" id="loginForm">
+        <input id="username" type="text" />
+      </form>
+    </section>
+
+    <main id="Box">
+      <section id="sideBox">
+        <h1 class="title">To-do List</h1>
+        <div class="user">
+          <h2>오늘도 열공이죠, <span id="account"></span> 님?</h2>
+        </div>
+        <div class="time">
+          <img
+            src="https://i.pinimg.com/736x/88/c8/f8/88c8f882edf3b48ea4788dfc517c73e9.jpg"
+            alt="kawaii marin"
+          />
+          <span>Time Attack</span>
+        </div>
+        <div class="timeOut"></div>
+        <div class="today">
+          <img
+            src="https://i.pinimg.com/564x/4d/63/f7/4d63f7fe2f79411e3ba8c7f7b048cd55.jpg"
+            alt="marin2"
+          />
+          <span>Today</span>
+        </div>
+
+        <div class="clock"></div>
+      </section>
+      <section id="mainBox">
+        <div class="todo"></div>
+      </section>
+    </main>
+
+    <script scr="todo.js"></script>
+    <script src="login.js"></script>
+    <script src="clock.js"></script>
+    <script src="timeout.js"></script>
+  </body>
+</html>
